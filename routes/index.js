@@ -2,7 +2,7 @@ const express = require("express");
 const fs = require("fs");
 const router = express.Router();
 
-const PATH_ROUTES = __dirname;
+const PATH_ROUTES = __dirname;// ruta absoluta de archivo index.js / tracks.js
 
 const removeExtension = (fileName) => {
   //TODO tracks.js [tracks, js]
